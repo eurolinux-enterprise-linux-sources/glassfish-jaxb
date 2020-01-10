@@ -1,6 +1,6 @@
 Name: glassfish-jaxb
 Version: 2.2.5
-Release: 5%{?dist}
+Release: 6%{?dist}
 Summary: JAXB Reference Implementation
 
 Group: Development/Libraries
@@ -203,6 +203,9 @@ cp -rp apidocs/* %{buildroot}%{_javadocdir}/%{name}/.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.5-6
+- Mass rebuild 2013-12-27
+
 * Fri Oct 25 2013 Ade Lee <alee@redhat.com> - 2.2.5-5
 - Resolves rhbz#1017802 - glassfish-jaxb: mock build failed on RHEL 7
 
